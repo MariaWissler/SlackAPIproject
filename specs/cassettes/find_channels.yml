@@ -1,0 +1,125 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://slack.com/api/channels.list?token=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '53'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 19 Mar 2019 22:14:02 GMT
+      Server:
+      - Apache
+      Access-Control-Expose-Headers:
+      - x-slack-req-id
+      Access-Control-Allow-Headers:
+      - slack-route, x-slack-version-ts
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Referrer-Policy:
+      - no-referrer
+      X-Accepted-Oauth-Scopes:
+      - channels:read
+      Vary:
+      - Accept-Encoding
+      X-Slack-Req-Id:
+      - e2b1a406-216b-4937-aa63-dc7e38cdce96
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Via:
+      - haproxy-www-lyjg
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 d714b057e8bc1fb7da10bf9e59df1987.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - dbM3KYDtOdP6imATHXX8W28zmQYMJ8noYeWUx8tmx6sfnbQVb406mw==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":false,"error":"not_authed"}'
+    http_version: 
+  recorded_at: Tue, 19 Mar 2019 22:14:02 GMT
+- request:
+    method: get
+    uri: https://slack.com/api/users.list?token=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '53'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 19 Mar 2019 22:14:02 GMT
+      Server:
+      - Apache
+      Access-Control-Expose-Headers:
+      - x-slack-req-id
+      Access-Control-Allow-Headers:
+      - slack-route, x-slack-version-ts
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Referrer-Policy:
+      - no-referrer
+      X-Accepted-Oauth-Scopes:
+      - users:read
+      Vary:
+      - Accept-Encoding
+      X-Slack-Req-Id:
+      - 831a6739-2e35-4c59-ac5c-76d523babb10
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Via:
+      - haproxy-www-qiai
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 5da5773a6acab8f3aabf385b38683f20.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 3RjBul0ANjhEzH8DdigKcUsLhqOl_p3HGk0FHEHzeHHqdB_gBSaqZg==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":false,"error":"not_authed"}'
+    http_version: 
+  recorded_at: Tue, 19 Mar 2019 22:14:03 GMT
+recorded_with: VCR 4.0.0

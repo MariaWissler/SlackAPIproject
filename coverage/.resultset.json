@@ -1,0 +1,53 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/maria/ada/slack-cli/lib/slack.rb": [
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        1
+      ],
+      "/Users/maria/ada/slack-cli/lib/recipient.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        2,
+        2,
+        null,
+        1,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/maria/ada/slack-cli/specs/user_spec.rb": [
+
+      ]
+    },
+    "timestamp": 1553034448
+  }
+}
